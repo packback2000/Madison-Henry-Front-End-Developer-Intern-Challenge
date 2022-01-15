@@ -1,0 +1,80 @@
+body {
+  background-color: #323232;
+  width: 80%;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid #AFAFAF;
+  padding: 15px;
+}
+
+h1 {
+  color: #AFAFAF;
+  max-width: 80%;
+  margin: auto;
+  padding: 15px;
+}
+
+.image-background {
+  display: flex;
+  justify-content: center;
+}
+.image-background img {
+  max-width: 90%;
+  padding: 15px;
+  background-color: #323232;
+  border: 2px solid #AFAFAF;
+}
+@media (min-width: 600px) {
+  .image-background img {
+    max-width: 75%;
+    margin: 20px;
+    padding: 15px;
+    background-color: #323232;
+  }
+}
+
+.buttons {
+  display: flex;
+  max-width: 80%;
+  margin: auto;
+}
+.buttons button {
+  height: 40px;
+  min-width: 32px;
+  border-radius: 4px;
+  color: #AFAFAF;
+  margin: 5px;
+  background-color: #323232;
+}
+.buttons div {
+  font-size: 30px;
+  color: #AFAFAF;
+  font-weight: lighter;
+  padding: 7px;
+}
+
+button:active {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+#container {
+  max-width: 80%;
+  margin: auto;
+  border: 5px solid #323232;
+  padding: 5px;
+  background-color: #323232;
+  color: #AFAFAF;
+  font-size: 15px;
+  line-height: 32px;
+  border: 2px;
+}
+
+.share {
+  margin: auto;
+  max-width: 80%;
+  color: #AFAFAF;
+}
+.share img {
+  filter: grayscale(50%);
+}/*# sourceMappingURL=styles.css.map */
